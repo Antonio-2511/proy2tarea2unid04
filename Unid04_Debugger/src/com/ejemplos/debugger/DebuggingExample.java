@@ -52,5 +52,15 @@ public class DebuggingExample {
     public double calculateAverageLetters(List<String> names, int totalLetters) {
         return names.isEmpty() ? 0 : (double) totalLetters / names.size(); // Set a breakpoint and use 'Evaluate Expression' here
     }
+    
+    /**
+     * AOV: Este metodo imprime un mensaje informativo simple por consola 
+     */
+    
+    public void mostrarMensaje() {
+    	
+    	System.out.println("Hola, esta es la modificacion para la tarea");
+    	
+    }
 
 }
